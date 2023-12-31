@@ -58,3 +58,15 @@ a {
   text-decoration: underline;
   font-weight: 600;
 }
+
+/* Mobile Layout */
+@media (max-width: 500px) {
+  .colorflip {
+    width: 100vw;
+    padding: 60px 30px;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+}
