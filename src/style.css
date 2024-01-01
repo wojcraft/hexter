@@ -2,12 +2,14 @@
 
 :root {
   --font-size: 16px;
-  --font-family: Inter, "Segoe UI";
+  --font-family: Inter, 'Segoe UI';
   --color-background: rgba(38, 42, 44, 95%);
   --color-text: #eee;
 }
 
-*,*::before,*::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,7 +24,8 @@ body {
   font-family: var(--font-family);
 }
 
-header, footer {
+header,
+footer {
   display: flex;
   width: 100vw;
   background-color: var(--color-background);
@@ -66,7 +69,7 @@ a {
     width: 100vw;
     padding: 60px 30px;
   }
-  
+
   h1 {
     font-size: 20px;
   }
