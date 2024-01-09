@@ -9,6 +9,9 @@
     "sourceType": "module"
   },
   "rules": {
-    "no-plusplus": "off"
+    "radix": "off",
+    "prefer-const": "off",
+    "no-plusplus": "off",
+    "prefer-template": "off"
   }
 }
