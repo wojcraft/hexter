@@ -5,6 +5,7 @@
   --font-family: Inter, 'Segoe UI';
   --color-background: rgba(38, 42, 44, 95%);
   --color-text: #eee;
+  --color-accent: rgba(19, 164, 73, 0.95);
 }
 
 *,
@@ -56,6 +57,13 @@ footer {
   color: var(--color-text);
   background-color: var(--color-background);
   border: 2px solid var(--color-text);
+}
+
+.flip:hover {
+  background-color: var(--color-accent);
+  border: 2px solid var(--color-accent);
+  transition: 300ms;
+  cursor: pointer;
 }
 
 a {
