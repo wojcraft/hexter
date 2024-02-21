@@ -18,6 +18,8 @@ const keyboardShortcuts = (event) => {
   }
 };
 
+document.body.style.background = elDisplayColor.textContent;
+
 elFlipButton.addEventListener('click', flip);
 document.addEventListener('load', flip);
 document.addEventListener('keyup', keyboardShortcuts);
