@@ -1,12 +1,12 @@
 import getColor from './getColor';
 
-const flipButton = document.querySelector('.flip');
-const displayColor = document.querySelector('span.color');
+const elFlipButton = document.querySelector('.flip');
+const elDisplayColor = document.querySelector('span.color');
 
 const flip = () => {
   const generatedColor = getColor();
 
-  displayColor.textContent = generatedColor;
+  elDisplayColor.textContent = generatedColor;
   document.body.style.background = generatedColor;
 
   document.title = `${generatedColor} - Hexter`;
@@ -18,6 +18,6 @@ const keyboardShortcuts = (event) => {
   }
 };
 
-flipButton.addEventListener('click', flip);
+elFlipButton.addEventListener('click', flip);
 document.addEventListener('load', flip);
 document.addEventListener('keyup', keyboardShortcuts);

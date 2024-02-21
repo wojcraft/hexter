@@ -72,13 +72,13 @@ a {
   color: var(--color-text);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
   .colorflip {
     width: 100vw;
     padding: 60px 30px;
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
