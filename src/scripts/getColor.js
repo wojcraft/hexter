@@ -1,6 +1,3 @@
-const btn = document.querySelector('.flip');
-const displayColor = document.querySelector('span.color');
-
 const getColor = () => {
   const range = 256;
 
@@ -20,14 +17,4 @@ const getColor = () => {
   return color;
 };
 
-const flip = () => {
-  const generatedColor = getColor();
-
-  displayColor.textContent = generatedColor;
-  document.body.style.background = generatedColor;
-
-  document.title = `${generatedColor} - Hexter`;
-};
-
-btn.addEventListener('click', flip);
-document.addEventListener('load', flip);
+export default getColor;

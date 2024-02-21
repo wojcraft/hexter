@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "npm run lint:style && npm run lint:formatting",
-    "lint:style": "eslint --fix src/main.js",
+    "lint:style": "eslint --fix src/scripts/main.js",
     "lint:formatting": "prettier --write .",
     "prepare": "husky install"
   },
